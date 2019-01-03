@@ -1,0 +1,240 @@
+.jd_container{
+    height: 2000px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+    min-width: 320px;
+    position: relative;
+}
+/* 头部 */
+.jd_header{
+    width: 100%;
+    height: 40px;
+    padding-left: 75px;
+    padding-right: 50px;
+    max-width: 640px;
+    min-width: 320px;
+    position: fixed;
+    background: rgba(222, 24, 27, 0);
+}
+.jd_left{
+    width: 75px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.jd_logo{
+    width: 58px;
+    height: 22px;
+    background-position:  0 -109px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.jd_right{
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.jd_search{
+    width: 100%;
+    height: 100%;
+    /* background-color: purple; */
+    position: relative;
+    padding-top: 5px;
+}
+.icon{
+    width: 22px;
+    height: 21px;
+    background-position: -60px -110px;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.jd_search input{
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-left: 35px;
+}
+/* 轮播图 */
+.jd_banner{
+    overflow: hidden;
+    position: relative;
+}
+.jd_banner ul{
+    width: 1000%;
+}
+.jd_banner ul li{
+    width: 10%;
+    float: left;
+}
+.jd_banner ol {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+.jd_banner ol li{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 0 5px;
+}
+.jd_banner ol li.now{
+    background-color: #fff;
+}
+
+
+/* 导航 */
+.jd_right a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+.jd_nav ul li {
+    float: left;
+    width: 20%;
+    height: 78px;
+    padding: 10px 0px;
+}
+.jd_nav img{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.jd_nav p{
+    text-align: center;
+}
+/* 新闻 */
+.jd_news {
+    height: 30px;
+    padding-left: 82px;
+    padding-right: 40px;
+    position: relative;
+    /* overflow: hidden; */
+}
+.jd_news .logo{
+    height: 30px;
+    width: 82px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+.jd_news .info{
+    height: 30px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+.jd_news .more{
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.jd_news .logo img{
+    width: 73px;
+    height: 16px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.jd_news .info ul li{
+    height: 30px;
+    line-height: 30px;
+}
+/* 秒杀  */
+.jd_seckill .title{
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.jd_seckill .title .clock{
+    position: relative;
+}
+.jd_seckill .title .clock i{
+    width: 17px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    background-position: -84px -109px;
+    margin: 3px 5px;
+}
+.jd_seckill .title .clock span{
+    color: #F23030;
+    margin-left: 30px;
+}
+.jd_seckill .title .time{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.jd_seckill .title .time span{
+    float: left;
+    text-align: center;
+    line-height: 18px;
+}
+.jd_seckill .title .time span:nth-child(2n-1){
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+.jd_seckill .title .time span:nth-child(2n){
+    margin: 0 3px;
+}
+.jd_seckill .more a{
+    display: block;
+    padding-right: 10px;
+}
+.jd_seckill .content{
+    overflow: scroll;
+}
+.jd_seckill .content ul li{
+    float: left;
+    width: 87px;
+    border-right: 1px solid #ccc;
+} 
+.jd_seckill .content ul li a{
+    display: block;
+}
+.jd_seckill .content ul li img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.jd_seckill .content ul li p{
+    text-align: center;
+}
+.jd_seckill .content ul li .price{
+    color: #F23030;
+    font-weight: bold;
+}
+.jd_seckill .content ul li .old{
+    text-decoration: line-through;
+}
+/* 产品 */
+.jd_product a{
+    float: left;
+    width: 33.3%;
+}
+/* 热卖区域 */
+.jd_marjor li:nth-child(1) a{
+    float: left;
+    width: 33.3%;
+}
+.jd_marjor li:nth-last-child(-n+2) a{
+    float: left;
+    width: 50%;
+}
+
+
+

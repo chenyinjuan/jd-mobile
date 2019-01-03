@@ -1,0 +1,92 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    padding-top: 44px;
+    background-color: pink;
+    position: relative;
+}
+.jd_header{
+    background-image: linear-gradient( to bottom, white,#ccc );
+    /* background-color: blue; */
+    width: 100%;
+    height: 44px;
+    padding: 0 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.jd_header a{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+.jd_header .header_left{
+    background-position: -20px 0;
+    top: 12px;
+    left: 12px;
+}
+.jd_header .header_right{
+    top: 12px;
+    right: 12px;
+    background-position: -60px 0;
+}
+.jd_header .search{
+    border-radius: 5px;
+    margin-top: 7px;
+    width: 100%;
+    height: 30px;
+}
+.content{
+    height: 100%;
+    background-color: blue;
+    /* padding-left: 90px; */
+}
+.content .content_left{
+    width: 90px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.content_left ul li{
+    height: 50px;
+    background-color: pink;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+    line-height: 50px;
+    text-align: center;
+}
+.content_left ul li a{
+    color: #000;
+}
+.content .content_right{
+    height: 100%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+.content .content_right .img_box{
+    padding: 10px;
+}
+.content .content_right .item_box{
+    padding: 10px;
+}
+.content .content_right h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.content .content_right ul li{
+    float: left;
+    width: 33.3%;
+}
+.content .content_right ul li img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+}
+.content .content_right ul li p{
+    text-align: center;
+}
+
